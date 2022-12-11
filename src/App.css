@@ -1,3 +1,12 @@
+
+@tailwind components;
+
+@layer components {
+	div > input[id^=] {
+		@apply border-2 border-zinc-400 bg-sky-50 focus:bg-sky-100;
+	}
+}
+
 .App {
   text-align: center;
 }
